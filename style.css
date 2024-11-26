@@ -13,6 +13,10 @@
   color: gray;
 }
 
+.photos {
+  padding: 10px;
+  
+}
 
 @media (min-width: 768px) {
   #posts {

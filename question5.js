@@ -26,4 +26,4 @@ async function getPosts() {
     titleAndBody.append(title, body);
   });
 }
-// getPosts();
+getPosts();

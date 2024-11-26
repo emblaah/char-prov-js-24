@@ -11,6 +11,7 @@ async function getPhotos() {
 
   data2.forEach((photo) => {
     const photos = document.createElement("img");
+    photos.className = "photos";
 
     if (photo.id <= 10) {
       photos.src = photo.thumbnailUrl;
