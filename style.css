@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.titleAndBody {
+  padding: 20px;
+  margin: 10px;
+}
+
+.title {
+  font-weight: bold;
+  color: gray;
+}
+
+
+@media (min-width: 768px) {
+  #posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
