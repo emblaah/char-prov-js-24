@@ -12,10 +12,10 @@ const book = {
 
 function getBookInfo(book) {
   // Din kod här
-  const { year, ...newBook } = book;
-  const bookName = newBook.title;
-  const bookAuthor = newBook.author;
-  return `Titel: ${bookName}, Författare: ${bookAuthor}`;
+  const { title, author } = book;
+  const bookTitle = book.title;
+  const bookAuthor = book.author;
+  return `Titel: ${bookTitle}, Författare: ${bookAuthor}`;
 }
 
 console.log(getBookInfo(book));
